@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Read Out Loud Selected Text",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus"],
+  "action": {
+    "default_title": "Read Out Loud Selected Text"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
