@@ -4,7 +4,7 @@ chrome.contextMenus.create({
   contexts: ["selection"]
 });
 
-const url = 'http://192.168.81.76:6789';
+const url = 'http://localhost:6789';
 
 chrome.contextMenus.onClicked.addListener(function(info) {
   if (info.menuItemId === "ReadSelectedText") {
